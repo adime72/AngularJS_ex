@@ -32,6 +32,25 @@
             <p>{{actor.fName + " " + actor.lName}}</p>
         </div>
     </div>
+
+    <div class "movies" ng-controller="moviesCtrl">
+            <div class="well" class="style_display">
+                    <h1>10 Best Movies</h1>
+            </div>
+                    <div class="col-sm-4" ng-repeat="am-movie in am-movies">  
+                            <a ng-href="{{movie.imdb}}">
+                                    <img ng-src="{{movie.image}}">
+                                </a>
+                                <p>{{"The movie:" + Movie.name}}</p>
+                                <p> {{"Director" + movie.dirctor}}</p>
+                    </div>
+
+                                
+
+
+
+    </div>
+        
 </body>
 
 </html>
