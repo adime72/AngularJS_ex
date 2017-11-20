@@ -17,5 +17,4 @@ app.controller("actorCtrl", function ($scope) {
     new actors("Henry", "Cavill", "https://goo.gl/Uk3GjS", "http://www.imdb.com/name/nm0147147/?ref_=ttfc_fc_cl_i2")];
 
 
-
 });
