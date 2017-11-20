@@ -1,6 +1,32 @@
-
-[{"fName":"Gal","lName": "Gadot", "image": "https://goo.gl/cXzVR4","imdb": "http://www.imdb.com/name/nm2933757/"},
-{"fName": "Ben", "lName": "Affleck", "image":"https://goo.gl/SjcNBA","imdb": "http://www.imdb.com/name/nm0000255/?ref_=tt_ov_st_sm"},
-{"fName": "Robin","lName": "Wright ", "image":"https://goo.gl/JR6sB4", "imdb": "http://www.imdb.com/name/nm0000705/?ref_=nmmi_mi_nm"},
-{"fName":"Jaso", "lName":"Momoa", "image":"https://goo.gl/18URXx", "imdb": "http://www.imdb.com/name/nm0597388/?ref_=tt_ov_st_sm"},
-{"fName":"Henry", "lName": "Cavill", "image":"https://goo.gl/Uk3GjS", "imdb": "http://www.imdb.com/name/nm0147147/?ref_=ttfc_fc_cl_i2"}];
+[
+    {
+        "fName": "Gal",
+        "lName": "Gadot",
+        "image": "https://goo.gl/cXzVR4",
+        "imdb": "http://www.imdb.com/name/nm2933757/"
+    },
+    {
+        "fName": "Ben",
+        "lName": "Affleck",
+        "image": "https://goo.gl/SjcNBA",
+        "imdb": "http://www.imdb.com/name/nm0000255/?ref_=tt_ov_st_sm"
+    },
+    {
+        "fName": "Robin",
+        "lName": "Wright ",
+        "image": "https://goo.gl/JR6sB4",
+        "imdb": "http://www.imdb.com/name/nm0000705/?ref_=nmmi_mi_nm"
+    },
+    {
+        "fName": "Jaso",
+        "lName": "Momoa",
+        "image": "https://goo.gl/18URXx",
+        "imdb": "http://www.imdb.com/name/nm0597388/?ref_=tt_ov_st_sm"
+    },
+    {
+        "fName": "Henry",
+        "lName": "Cavill",
+        "image": "https://goo.gl/Uk3GjS",
+        "imdb": "http://www.imdb.com/name/nm0147147/?ref_=ttfc_fc_cl_i2"
+    }
+]
