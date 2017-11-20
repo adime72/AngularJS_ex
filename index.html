@@ -4,7 +4,7 @@
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
     <script src="actorCtrl.js"></script>
 </head>
@@ -13,19 +13,21 @@
     <h1 class="bkgH1">Justice League (2017)</h1>
 
     <br>
-    <div ng-controller="actorCtrl"   class="well" class="style_display" >
-        Search: <input type="text" ng-model="query.fName" /> 
-         Order By: <select ng-model="orderProp">
-                        <option value="fName">First name</option>
-                        <option value="lName">Last name</option>
-                        </select>
-                        <br>
-                        <h2>Movie Cast</h2>
-                        <br>
+    <div ng-controller="actorCtrl">
+        <div class="well" class="style_display">
+            Search:
+            <input type="text" ng-model="query.fName" /> Order By:
+            <select ng-model="orderProp">
+                <option value="fName">First name</option>
+                <option value="lName">Last name</option>
+            </select>
+        </div>
+        <h2>Movie Cast</h2>
+        <br>
         <div class="col-sm-4" ng-repeat="actor in actors | filter: query | orderBy: orderProp:true">
-         
+
             <a ng-href="{{actor.imdb}}">
-            <img ng-src="{{actor.image}}">
+                <img ng-src="{{actor.image}}">
             </a>
             <p>{{actor.fName + " " + actor.lName}}</p>
         </div>
