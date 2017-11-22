@@ -8,7 +8,7 @@
     <script src="app.js"></script>
     <script src="actorCtrl.js"></script>
     <script src="Mlength.js"></script>
-    
+
 </head>
 
 <body>
@@ -32,7 +32,9 @@
                 <img ng-src="{{actor.image}}">
             </a>
             <p>{{actor.fName + " " + actor.lName}}</p>
-            <p>{{"langth: "+ actor.length}}
+            <p>{{"langth: "+ actor.length}}</p>
+            <p> {{convert.min2String(actor.length)}}</p>
+                
                 <p id= "showHour"></p>
         </div>
     </div>

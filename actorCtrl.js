@@ -1,6 +1,8 @@
 
-app.controller("actorCtrl", function ($scope, $http, Mlength) {
+app.controller("actorCtrl", function ($scope, $http, convert) {
 
+
+    $scope.convert = convert;
 
     function Actor(fName, lName, image, imdb,length) {
         this.fName = fName;
@@ -27,4 +29,7 @@ app.controller("actorCtrl", function ($scope, $http, Mlength) {
             new actors("Henry", "Cavill", "https://goo.gl/Uk3GjS", "http://www.imdb.com/name/nm0147147/?ref_=ttfc_fc_cl_i2")];
         
         */
+    
     });
+
+    
