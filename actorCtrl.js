@@ -1,18 +1,18 @@
 
-app.controller("actorCtrl", function ($scope, $http, convert) {
+app.controller("actorCtrl", function ($scope, $http, convert, Actor) {
 
 
     $scope.convert = convert;
-
+/*
     function Actor(fName, lName, image, imdb,length) {
         this.fName = fName;
         this.lName = lName;
         this.image = image;
         this.imdb = imdb;
         this.length = length;
-    }
+    } */
     $scope.actors =[];
-    $http.get("Justice_League.json").then(function mySuccess(response) {
+    $http.get("App/model/dataJustice_League.json").then(function mySuccess(response) {
         for (var i = 0; i < response.data.length; i++) {
             $scope.actors.push(new Actor(response.data[i].fName, response.data[i].lName,
                 response.data[i].image, response.data[i].imdb, response.data[i].length))
